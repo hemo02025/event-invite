@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Invitation</title>
+    <style>/* Reset some default browser styling */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom, #fdf6e3, #ffe8b3);
+  color: #333;
+  padding: 30px;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.event-header {
+  text-align: center;
+  background-color: #f99f10;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.event-title {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.event-date {
+  font-size: 1.2em;
+}
+
+.event-details {
+  margin-top: 30px;
+  line-height: 1.6em;
+  background-color: #fff5e6;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+.guest-list {
+  margin-top: 30px;
+}
+
+.guest-list h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.guest-list ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.guest-list li {
+  background-color: #fef3c7;
+  padding: 8px 12px;
+  margin-bottom: 6px;
+  border-radius: 5px;
+}
+
+.rsvp {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.rsvp-btn {
+  display: inline-block;
+  background-color: #0077b6;
+  color: white;
+  text-decoration: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-size: 1.1em;
+  transition: background-color 0.3s ease;
+}
+
+.rsvp-btn:hover {
+  background-color: #023e8a;
+}</style>
+</head>
+<body>
+    <div class="container">
+        <header class="event-header">
+            <h1 class="event-title">Summer Party 2025</h1>
+            <p class="event-date">July 10th, 2025</p>
+        </header>
+
+        <section class="event-details">
+            <p class="event-location"><strong>Location:</strong> Beachfront Park</p>
+            <p class="event-time"><strong>Time:</strong> 5:00 PM - 9:00 PM</p>
+            <p class="event-dresscode"><strong>Dress Code:</strong> Casual, Beachwear</p>
+        </section>
+
+        <section class="guest-list">
+            <h2>Guest List:</h2>
+            <ul>
+                <li>John Doe</li>
+                <li>Jane Smith</li>
+                <li>Sam Brown</li>
+            </ul>
+        </section>
+
+        <section class="rsvp">
+            <a href="https://example.com/rsvp" class="rsvp-btn">RSVP Now</a>
+        </section>
+    </div>
+</body>
+</html>
